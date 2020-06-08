@@ -121,6 +121,11 @@ header .header {
     font-family: Lato-Regular, sans-serif;
     text-align: center;
 }
+.title {
+    font-size: 32px;
+    letter-spacing: 5px;
+    margin-bottom: 0;
+}
 .bag {
     margin-top: 30px;
     font-family: Lato-Regular,sans-serif;
@@ -129,11 +134,13 @@ header .header {
     width: 100%;
 }
 .head {
+    padding-top: 15px;
     display: flex;
     justify-content: space-between;
     list-style: none;
     text-align: left;
     text-transform: uppercase;
+    color: gray;
 }
 .itemRow {
     display: flex;
@@ -197,6 +204,9 @@ header .header {
 .subtotal {
     text-align: right;
     margin-right: 70px;
+}
+.subtotal span {
+    color: #f68236;
 }
 .bag__btn {
     margin-top: 50px;
